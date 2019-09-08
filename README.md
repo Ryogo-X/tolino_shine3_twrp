@@ -22,9 +22,8 @@ TWRP builds and is fully functional (hopefully).
 4. apply patches from `<twrp_repo>/device/TOLINO/shine_3/patches` directory
 5. open terminal in `<twrp_repo>` directory;
 6. `. build/envsetup.sh`
-7. `add_lunch_combo omni_ntx_6sl-userdebug`
-8. `lunch omni_ntx_6sl-userdebug`
-9. `mka recoveryimage`
+7. `lunch omni_shine_3-userdebug`
+8. `mka recoveryimage`
 
 if you want to enable A2 mode:
 1. clone [monochrome theme repo](https://github.com/Ryogo-Z/twrp_monochrome_portrait_hdpi_theme/) into `<twrp_repo>/device/TOLINO/shine_3/theme`
